@@ -46,9 +46,35 @@ Alternativa rápida: arrastra la carpeta (o zip) al panel de sitios en Netlify.
 ### Próximos pasos sugeridos
 
 - Añadir lógica de simulación real.
-- Integrar framework (React/Vite o Svelte) si crece la UI.
+- Integrar framework (React/Vite o Svelte) si crece la UI. (Ya migrado a React/Vite)
 - Configurar CI/CD (GitHub Actions) para despliegues automáticos.
 - Añadir pruebas y métricas (Lighthouse, accesibilidad).
+
+### Datos reales de LaLiga
+
+Script `npm run fetch:data` descarga standings y partidos (competición PD) para las últimas 10 temporadas usando football-data.org.
+
+1. Regístrate y obten token gratuito: https://www.football-data.org/
+2. Copia `.env.example` a `.env` y rellena `FOOTBALL_DATA_TOKEN`.
+3. Ejecuta:
+```bash
+npm install
+npm run fetch:data
+npm run dev
+```
+4. Abre el navegador en la URL que indica Vite.
+
+Archivos JSON generados en `public/data/AAAA-AAAA.json`.
+
+Sin token: se mantienen placeholders.
+
+### Deploy automático (GitHub Pages)
+
+Workflow en `.github/workflows/deploy.yml` construye y publica al hacer push a `main`.
+
+Pasos:
+1. Settings > Pages: Source = GitHub Actions.
+2. (Opcional) Añadir secret `FOOTBALL_DATA_TOKEN` para datos reales en build.
 
 ---
 

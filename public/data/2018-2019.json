@@ -1,0 +1,12 @@
+{
+  "season": "2018-2019",
+  "generatedAt": "2025-08-17T00:00:00.000Z",
+  "source": "placeholder",
+  "table": [
+    {"teamId":"fcb","name":"FC Barcelona","played":38,"wins":26,"draws":9,"losses":3,"goalsFor":90,"goalsAgainst":36,"points":87,"position":1},
+    {"teamId":"atm","name":"Atlético Madrid","played":38,"wins":22,"draws":10,"losses":6,"goalsFor":55,"goalsAgainst":29,"points":76,"position":2},
+    {"teamId":"rm","name":"Real Madrid","played":38,"wins":21,"draws":5,"losses":12,"goalsFor":63,"goalsAgainst":46,"points":68,"position":3}
+  ],
+  "matches": [],
+  "injuries": []
+}

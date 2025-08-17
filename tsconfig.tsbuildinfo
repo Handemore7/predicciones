@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/types.ts","./src/components/LeagueTable.tsx","./src/components/SeasonSelector.tsx","./src/components/TableFilters.tsx","./src/components/TeamSeasonDetail.tsx","./src/lib/dataLoader.ts","./src/pages/HomePage.tsx","./src/pages/TeamPage.tsx","./src/store/useSeasonStore.ts"],"version":"5.9.2"}

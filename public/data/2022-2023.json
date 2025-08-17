@@ -1,0 +1,12 @@
+{
+  "season": "2022-2023",
+  "generatedAt": "2025-08-17T00:00:00.000Z",
+  "source": "placeholder",
+  "table": [
+    {"teamId":"fcb","name":"FC Barcelona","played":38,"wins":28,"draws":4,"losses":6,"goalsFor":70,"goalsAgainst":20,"points":88,"position":1},
+    {"teamId":"rm","name":"Real Madrid","played":38,"wins":24,"draws":6,"losses":8,"goalsFor":75,"goalsAgainst":36,"points":78,"position":2},
+    {"teamId":"atm","name":"Atlético Madrid","played":38,"wins":23,"draws":8,"losses":7,"goalsFor":70,"goalsAgainst":33,"points":77,"position":3}
+  ],
+  "matches": [],
+  "injuries": []
+}

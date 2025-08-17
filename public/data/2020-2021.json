@@ -1,0 +1,12 @@
+{
+  "season": "2020-2021",
+  "generatedAt": "2025-08-17T00:00:00.000Z",
+  "source": "placeholder",
+  "table": [
+    {"teamId":"atm","name":"Atlético Madrid","played":38,"wins":26,"draws":8,"losses":4,"goalsFor":67,"goalsAgainst":25,"points":86,"position":1},
+    {"teamId":"rm","name":"Real Madrid","played":38,"wins":25,"draws":9,"losses":4,"goalsFor":67,"goalsAgainst":28,"points":84,"position":2},
+    {"teamId":"fcb","name":"FC Barcelona","played":38,"wins":24,"draws":7,"losses":7,"goalsFor":85,"goalsAgainst":38,"points":79,"position":3}
+  ],
+  "matches": [],
+  "injuries": []
+}

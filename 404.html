@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Página no encontrada – LaLiga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      :root { color-scheme: dark; --bg:#06090d; --fg:#f0f6fc; --accent:#2563eb; --grid:#1b2530; --ball:#ffffff; --shadow:#0c141d; }
+      html,body { margin:0; height:100%; font-family: 'Inter', system-ui, sans-serif; background:radial-gradient(circle at 30% 30%,#102030,#06090d 65%); color:var(--fg); overflow:hidden; }
+      .wrap { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100%; text-align:center; padding:2rem; }
+  h1 { font-size:clamp(2.8rem,7vw,5rem); margin:0 0 1rem; letter-spacing:-2px; background:linear-gradient(90deg,#5fa8ff,#8ec5ff); -webkit-background-clip:text; background-clip:text; color:transparent; }
+      p { max-width:600px; line-height:1.4; margin:.5rem auto 1.25rem; font-size:1.05rem; }
+      a.btn { display:inline-block; padding:.85rem 1.4rem; border-radius:40px; background:linear-gradient(135deg,#2563eb,#1e40af); color:#fff; text-decoration:none; font-weight:600; box-shadow:0 4px 18px -4px #2563ebaa; transition:.3s; }
+      a.btn:hover { transform:translateY(-4px); box-shadow:0 8px 28px -6px #2563ebdd; }
+      .pitch-lines { position:absolute; inset:0; background:
+        repeating-linear-gradient(var(--grid) 0 2px, transparent 2px 120px),
+        repeating-linear-gradient(90deg,var(--grid) 0 2px, transparent 2px 120px); opacity:.12; }
+      .ball { position:absolute; width:70px; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle at 30% 30%,#fff,#d9d9d9 55%,#b5b5b5); top:50%; left:50%; transform:translate(-50%,-50%); animation:drift 14s linear infinite; box-shadow:0 10px 22px -6px #000a, 0 0 0 3px #ffffff10; }
+      .ball:before, .ball:after { content:""; position:absolute; inset:0; background:
+        radial-gradient(circle at 50% 50%, #000 0 7%, transparent 8%),
+        radial-gradient(circle at 85% 35%, #000 0 6%, transparent 7%),
+        radial-gradient(circle at 25% 70%, #000 0 6%, transparent 7%),
+        radial-gradient(circle at 65% 75%, #000 0 5%, transparent 6%),
+        radial-gradient(circle at 30% 30%, #000 0 5%, transparent 6%);
+        mix-blend-mode:multiply; opacity:.5; filter:blur(.3px); }
+      .ball:after { animation:spin 4s linear infinite; }
+      @keyframes spin { to { transform:rotate(360deg); } }
+      @keyframes drift { 0% { transform:translate(-50%,-50%) translate3d(-40vw,-30vh,0); } 25% { transform:translate(-50%,-50%) translate3d(35vw,-32vh,0); } 50% { transform:translate(-50%,-50%) translate3d(42vw,30vh,0);} 75% { transform:translate(-50%,-50%) translate3d(-38vw,28vh,0);} 100% { transform:translate(-50%,-50%) translate3d(-40vw,-30vh,0);} }
+      .glow { position:absolute; inset:0; background:radial-gradient(circle at 70% 65%,#1e3a8a40,transparent 60%),radial-gradient(circle at 20% 30%,#2563eb30,transparent 55%); mix-blend-mode:screen; pointer-events:none; }
+    </style>
+  </head>
+  <body>
+    <div class="pitch-lines"></div>
+    <div class="glow"></div>
+    <div class="ball"></div>
+    <div class="wrap">
+      <h1>404</h1>
+      <p>La jugada que buscas se perdió fuera de banda. La página no existe o fue trasladada.</p>
+      <a class="btn" href="./">Volver al inicio</a>
+    </div>
+  </body>
+</html>

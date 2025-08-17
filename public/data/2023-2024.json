@@ -1,0 +1,5570 @@
+{
+  "season": "2023-2024",
+  "generatedAt": "2025-08-17T22:05:44.656Z",
+  "source": "football-data.org",
+  "table": [
+    {
+      "teamId": "86",
+      "name": "Real Madrid CF",
+      "played": 38,
+      "wins": 29,
+      "draws": 8,
+      "losses": 1,
+      "goalsFor": 87,
+      "goalsAgainst": 26,
+      "points": 95,
+      "position": 1
+    },
+    {
+      "teamId": "81",
+      "name": "FC Barcelona",
+      "played": 38,
+      "wins": 26,
+      "draws": 7,
+      "losses": 5,
+      "goalsFor": 79,
+      "goalsAgainst": 44,
+      "points": 85,
+      "position": 2
+    },
+    {
+      "teamId": "298",
+      "name": "Girona FC",
+      "played": 38,
+      "wins": 25,
+      "draws": 6,
+      "losses": 7,
+      "goalsFor": 85,
+      "goalsAgainst": 46,
+      "points": 81,
+      "position": 3
+    },
+    {
+      "teamId": "78",
+      "name": "Club Atlético de Madrid",
+      "played": 38,
+      "wins": 24,
+      "draws": 4,
+      "losses": 10,
+      "goalsFor": 70,
+      "goalsAgainst": 43,
+      "points": 76,
+      "position": 4
+    },
+    {
+      "teamId": "77",
+      "name": "Athletic Club",
+      "played": 38,
+      "wins": 19,
+      "draws": 11,
+      "losses": 8,
+      "goalsFor": 61,
+      "goalsAgainst": 37,
+      "points": 68,
+      "position": 5
+    },
+    {
+      "teamId": "92",
+      "name": "Real Sociedad de Fútbol",
+      "played": 38,
+      "wins": 16,
+      "draws": 12,
+      "losses": 10,
+      "goalsFor": 51,
+      "goalsAgainst": 39,
+      "points": 60,
+      "position": 6
+    },
+    {
+      "teamId": "90",
+      "name": "Real Betis Balompié",
+      "played": 38,
+      "wins": 14,
+      "draws": 15,
+      "losses": 9,
+      "goalsFor": 48,
+      "goalsAgainst": 45,
+      "points": 57,
+      "position": 7
+    },
+    {
+      "teamId": "94",
+      "name": "Villarreal CF",
+      "played": 38,
+      "wins": 14,
+      "draws": 11,
+      "losses": 13,
+      "goalsFor": 65,
+      "goalsAgainst": 65,
+      "points": 53,
+      "position": 8
+    },
+    {
+      "teamId": "95",
+      "name": "Valencia CF",
+      "played": 38,
+      "wins": 13,
+      "draws": 10,
+      "losses": 15,
+      "goalsFor": 40,
+      "goalsAgainst": 45,
+      "points": 49,
+      "position": 9
+    },
+    {
+      "teamId": "263",
+      "name": "Deportivo Alavés",
+      "played": 38,
+      "wins": 12,
+      "draws": 10,
+      "losses": 16,
+      "goalsFor": 36,
+      "goalsAgainst": 46,
+      "points": 46,
+      "position": 10
+    },
+    {
+      "teamId": "79",
+      "name": "CA Osasuna",
+      "played": 38,
+      "wins": 12,
+      "draws": 9,
+      "losses": 17,
+      "goalsFor": 45,
+      "goalsAgainst": 56,
+      "points": 45,
+      "position": 11
+    },
+    {
+      "teamId": "82",
+      "name": "Getafe CF",
+      "played": 38,
+      "wins": 10,
+      "draws": 13,
+      "losses": 15,
+      "goalsFor": 42,
+      "goalsAgainst": 54,
+      "points": 43,
+      "position": 12
+    },
+    {
+      "teamId": "559",
+      "name": "Sevilla FC",
+      "played": 38,
+      "wins": 10,
+      "draws": 11,
+      "losses": 17,
+      "goalsFor": 48,
+      "goalsAgainst": 54,
+      "points": 41,
+      "position": 13
+    },
+    {
+      "teamId": "558",
+      "name": "RC Celta de Vigo",
+      "played": 38,
+      "wins": 10,
+      "draws": 11,
+      "losses": 17,
+      "goalsFor": 46,
+      "goalsAgainst": 57,
+      "points": 41,
+      "position": 14
+    },
+    {
+      "teamId": "89",
+      "name": "RCD Mallorca",
+      "played": 38,
+      "wins": 8,
+      "draws": 16,
+      "losses": 14,
+      "goalsFor": 33,
+      "goalsAgainst": 44,
+      "points": 40,
+      "position": 15
+    },
+    {
+      "teamId": "275",
+      "name": "UD Las Palmas",
+      "played": 38,
+      "wins": 10,
+      "draws": 10,
+      "losses": 18,
+      "goalsFor": 33,
+      "goalsAgainst": 47,
+      "points": 40,
+      "position": 16
+    },
+    {
+      "teamId": "87",
+      "name": "Rayo Vallecano de Madrid",
+      "played": 38,
+      "wins": 8,
+      "draws": 14,
+      "losses": 16,
+      "goalsFor": 29,
+      "goalsAgainst": 48,
+      "points": 38,
+      "position": 17
+    },
+    {
+      "teamId": "264",
+      "name": "Cádiz CF",
+      "played": 38,
+      "wins": 6,
+      "draws": 15,
+      "losses": 17,
+      "goalsFor": 26,
+      "goalsAgainst": 55,
+      "points": 33,
+      "position": 18
+    },
+    {
+      "teamId": "267",
+      "name": "UD Almería",
+      "played": 38,
+      "wins": 3,
+      "draws": 12,
+      "losses": 23,
+      "goalsFor": 43,
+      "goalsAgainst": 75,
+      "points": 21,
+      "position": 19
+    },
+    {
+      "teamId": "83",
+      "name": "Granada CF",
+      "played": 38,
+      "wins": 4,
+      "draws": 9,
+      "losses": 25,
+      "goalsFor": 38,
+      "goalsAgainst": 79,
+      "points": 21,
+      "position": 20
+    }
+  ],
+  "matches": [
+    {
+      "id": "438482",
+      "season": "2023-2024",
+      "utcDate": "2023-08-11T17:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "267",
+      "awayTeamId": "87",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438479",
+      "season": "2023-2024",
+      "utcDate": "2023-08-11T20:00:00Z",
+      "matchday": 1,
+      "homeTeamId": "559",
+      "awayTeamId": "95",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438481",
+      "season": "2023-2024",
+      "utcDate": "2023-08-12T15:00:00Z",
+      "matchday": 1,
+      "homeTeamId": "92",
+      "awayTeamId": "298",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438483",
+      "season": "2023-2024",
+      "utcDate": "2023-08-12T17:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "275",
+      "awayTeamId": "89",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438474",
+      "season": "2023-2024",
+      "utcDate": "2023-08-12T19:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "77",
+      "awayTeamId": "86",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438476",
+      "season": "2023-2024",
+      "utcDate": "2023-08-13T15:00:00Z",
+      "matchday": 1,
+      "homeTeamId": "558",
+      "awayTeamId": "79",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438480",
+      "season": "2023-2024",
+      "utcDate": "2023-08-13T17:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "94",
+      "awayTeamId": "90",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438478",
+      "season": "2023-2024",
+      "utcDate": "2023-08-13T19:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "82",
+      "awayTeamId": "81",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438477",
+      "season": "2023-2024",
+      "utcDate": "2023-08-14T17:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "264",
+      "awayTeamId": "263",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438475",
+      "season": "2023-2024",
+      "utcDate": "2023-08-14T19:30:00Z",
+      "matchday": 1,
+      "homeTeamId": "78",
+      "awayTeamId": "83",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438491",
+      "season": "2023-2024",
+      "utcDate": "2023-08-18T17:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "89",
+      "awayTeamId": "94",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438490",
+      "season": "2023-2024",
+      "utcDate": "2023-08-18T19:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "95",
+      "awayTeamId": "275",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438492",
+      "season": "2023-2024",
+      "utcDate": "2023-08-19T15:00:00Z",
+      "matchday": 2,
+      "homeTeamId": "92",
+      "awayTeamId": "558",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438493",
+      "season": "2023-2024",
+      "utcDate": "2023-08-19T17:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "267",
+      "awayTeamId": "86",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438485",
+      "season": "2023-2024",
+      "utcDate": "2023-08-19T19:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "79",
+      "awayTeamId": "77",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438488",
+      "season": "2023-2024",
+      "utcDate": "2023-08-20T17:00:00Z",
+      "matchday": 2,
+      "homeTeamId": "298",
+      "awayTeamId": "82",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438487",
+      "season": "2023-2024",
+      "utcDate": "2023-08-20T17:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "81",
+      "awayTeamId": "264",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438484",
+      "season": "2023-2024",
+      "utcDate": "2023-08-20T19:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "90",
+      "awayTeamId": "78",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438486",
+      "season": "2023-2024",
+      "utcDate": "2023-08-21T17:00:00Z",
+      "matchday": 2,
+      "homeTeamId": "263",
+      "awayTeamId": "559",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "438489",
+      "season": "2023-2024",
+      "utcDate": "2023-08-21T19:30:00Z",
+      "matchday": 2,
+      "homeTeamId": "83",
+      "awayTeamId": "87",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438503",
+      "season": "2023-2024",
+      "utcDate": "2023-08-25T17:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "275",
+      "awayTeamId": "92",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438495",
+      "season": "2023-2024",
+      "utcDate": "2023-08-25T19:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "558",
+      "awayTeamId": "86",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438496",
+      "season": "2023-2024",
+      "utcDate": "2023-08-26T17:00:00Z",
+      "matchday": 3,
+      "homeTeamId": "264",
+      "awayTeamId": "267",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438498",
+      "season": "2023-2024",
+      "utcDate": "2023-08-26T17:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "83",
+      "awayTeamId": "89",
+      "homeTeam": "Granada CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438499",
+      "season": "2023-2024",
+      "utcDate": "2023-08-26T19:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "559",
+      "awayTeamId": "298",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438501",
+      "season": "2023-2024",
+      "utcDate": "2023-08-27T15:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "94",
+      "awayTeamId": "81",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    {
+      "id": "438500",
+      "season": "2023-2024",
+      "utcDate": "2023-08-27T17:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "95",
+      "awayTeamId": "79",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438494",
+      "season": "2023-2024",
+      "utcDate": "2023-08-27T19:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "77",
+      "awayTeamId": "90",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "438497",
+      "season": "2023-2024",
+      "utcDate": "2023-08-28T17:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "82",
+      "awayTeamId": "263",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438502",
+      "season": "2023-2024",
+      "utcDate": "2023-08-28T19:30:00Z",
+      "matchday": 3,
+      "homeTeamId": "87",
+      "awayTeamId": "78",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 7
+      }
+    },
+    {
+      "id": "438508",
+      "season": "2023-2024",
+      "utcDate": "2023-09-01T17:30:00Z",
+      "matchday": 4,
+      "homeTeamId": "264",
+      "awayTeamId": "94",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438513",
+      "season": "2023-2024",
+      "utcDate": "2023-09-01T20:00:00Z",
+      "matchday": 4,
+      "homeTeamId": "267",
+      "awayTeamId": "558",
+      "homeTeam": "UD Almería",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438512",
+      "season": "2023-2024",
+      "utcDate": "2023-09-02T12:00:00Z",
+      "matchday": 4,
+      "homeTeamId": "92",
+      "awayTeamId": "83",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 5,
+        "away": 3
+      }
+    },
+    {
+      "id": "438511",
+      "season": "2023-2024",
+      "utcDate": "2023-09-02T14:15:00Z",
+      "matchday": 4,
+      "homeTeamId": "86",
+      "awayTeamId": "82",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438507",
+      "season": "2023-2024",
+      "utcDate": "2023-09-02T16:30:00Z",
+      "matchday": 4,
+      "homeTeamId": "263",
+      "awayTeamId": "95",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438505",
+      "season": "2023-2024",
+      "utcDate": "2023-09-02T19:00:00Z",
+      "matchday": 4,
+      "homeTeamId": "90",
+      "awayTeamId": "87",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438509",
+      "season": "2023-2024",
+      "utcDate": "2023-09-03T12:00:00Z",
+      "matchday": 4,
+      "homeTeamId": "298",
+      "awayTeamId": "275",
+      "homeTeam": "Girona FC",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438510",
+      "season": "2023-2024",
+      "utcDate": "2023-09-03T14:15:00Z",
+      "matchday": 4,
+      "homeTeamId": "89",
+      "awayTeamId": "77",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438506",
+      "season": "2023-2024",
+      "utcDate": "2023-09-03T19:00:00Z",
+      "matchday": 4,
+      "homeTeamId": "79",
+      "awayTeamId": "81",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438522",
+      "season": "2023-2024",
+      "utcDate": "2023-09-15T19:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "87",
+      "awayTeamId": "263",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438514",
+      "season": "2023-2024",
+      "utcDate": "2023-09-16T12:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "77",
+      "awayTeamId": "264",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438520",
+      "season": "2023-2024",
+      "utcDate": "2023-09-16T14:15:00Z",
+      "matchday": 5,
+      "homeTeamId": "95",
+      "awayTeamId": "78",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438515",
+      "season": "2023-2024",
+      "utcDate": "2023-09-16T16:30:00Z",
+      "matchday": 5,
+      "homeTeamId": "558",
+      "awayTeamId": "89",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438516",
+      "season": "2023-2024",
+      "utcDate": "2023-09-16T19:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "81",
+      "awayTeamId": "90",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "438517",
+      "season": "2023-2024",
+      "utcDate": "2023-09-17T12:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "82",
+      "awayTeamId": "79",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438521",
+      "season": "2023-2024",
+      "utcDate": "2023-09-17T14:15:00Z",
+      "matchday": 5,
+      "homeTeamId": "94",
+      "awayTeamId": "267",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438519",
+      "season": "2023-2024",
+      "utcDate": "2023-09-17T16:30:00Z",
+      "matchday": 5,
+      "homeTeamId": "559",
+      "awayTeamId": "275",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438523",
+      "season": "2023-2024",
+      "utcDate": "2023-09-17T19:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "86",
+      "awayTeamId": "92",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438518",
+      "season": "2023-2024",
+      "utcDate": "2023-09-18T19:00:00Z",
+      "matchday": 5,
+      "homeTeamId": "83",
+      "awayTeamId": "298",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "438527",
+      "season": "2023-2024",
+      "utcDate": "2023-09-22T19:00:00Z",
+      "matchday": 6,
+      "homeTeamId": "263",
+      "awayTeamId": "77",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438529",
+      "season": "2023-2024",
+      "utcDate": "2023-09-23T12:00:00Z",
+      "matchday": 6,
+      "homeTeamId": "298",
+      "awayTeamId": "89",
+      "homeTeam": "Girona FC",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 5,
+        "away": 3
+      }
+    },
+    {
+      "id": "438526",
+      "season": "2023-2024",
+      "utcDate": "2023-09-23T14:15:00Z",
+      "matchday": 6,
+      "homeTeamId": "79",
+      "awayTeamId": "559",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438528",
+      "season": "2023-2024",
+      "utcDate": "2023-09-23T16:30:00Z",
+      "matchday": 6,
+      "homeTeamId": "81",
+      "awayTeamId": "558",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438532",
+      "season": "2023-2024",
+      "utcDate": "2023-09-23T19:00:00Z",
+      "matchday": 6,
+      "homeTeamId": "267",
+      "awayTeamId": "95",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438531",
+      "season": "2023-2024",
+      "utcDate": "2023-09-24T12:00:00Z",
+      "matchday": 6,
+      "homeTeamId": "92",
+      "awayTeamId": "82",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "438530",
+      "season": "2023-2024",
+      "utcDate": "2023-09-24T14:15:00Z",
+      "matchday": 6,
+      "homeTeamId": "87",
+      "awayTeamId": "94",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438533",
+      "season": "2023-2024",
+      "utcDate": "2023-09-24T16:30:00Z",
+      "matchday": 6,
+      "homeTeamId": "275",
+      "awayTeamId": "83",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438525",
+      "season": "2023-2024",
+      "utcDate": "2023-09-24T16:30:00Z",
+      "matchday": 6,
+      "homeTeamId": "90",
+      "awayTeamId": "264",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438524",
+      "season": "2023-2024",
+      "utcDate": "2023-09-24T19:00:00Z",
+      "matchday": 6,
+      "homeTeamId": "78",
+      "awayTeamId": "86",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438539",
+      "season": "2023-2024",
+      "utcDate": "2023-09-26T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "559",
+      "awayTeamId": "267",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "438542",
+      "season": "2023-2024",
+      "utcDate": "2023-09-26T19:30:00Z",
+      "matchday": 7,
+      "homeTeamId": "89",
+      "awayTeamId": "81",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438534",
+      "season": "2023-2024",
+      "utcDate": "2023-09-27T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "77",
+      "awayTeamId": "82",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438541",
+      "season": "2023-2024",
+      "utcDate": "2023-09-27T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "94",
+      "awayTeamId": "298",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438543",
+      "season": "2023-2024",
+      "utcDate": "2023-09-27T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "86",
+      "awayTeamId": "275",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438537",
+      "season": "2023-2024",
+      "utcDate": "2023-09-27T19:30:00Z",
+      "matchday": 7,
+      "homeTeamId": "264",
+      "awayTeamId": "87",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438540",
+      "season": "2023-2024",
+      "utcDate": "2023-09-27T19:30:00Z",
+      "matchday": 7,
+      "homeTeamId": "95",
+      "awayTeamId": "92",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438536",
+      "season": "2023-2024",
+      "utcDate": "2023-09-28T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "558",
+      "awayTeamId": "263",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438538",
+      "season": "2023-2024",
+      "utcDate": "2023-09-28T17:00:00Z",
+      "matchday": 7,
+      "homeTeamId": "83",
+      "awayTeamId": "90",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438535",
+      "season": "2023-2024",
+      "utcDate": "2023-09-28T19:30:00Z",
+      "matchday": 7,
+      "homeTeamId": "79",
+      "awayTeamId": "78",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438547",
+      "season": "2023-2024",
+      "utcDate": "2023-09-29T19:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "81",
+      "awayTeamId": "559",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438548",
+      "season": "2023-2024",
+      "utcDate": "2023-09-30T12:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "82",
+      "awayTeamId": "94",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438550",
+      "season": "2023-2024",
+      "utcDate": "2023-09-30T14:15:00Z",
+      "matchday": 8,
+      "homeTeamId": "87",
+      "awayTeamId": "89",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438549",
+      "season": "2023-2024",
+      "utcDate": "2023-09-30T16:30:00Z",
+      "matchday": 8,
+      "homeTeamId": "298",
+      "awayTeamId": "86",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438551",
+      "season": "2023-2024",
+      "utcDate": "2023-09-30T19:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "92",
+      "awayTeamId": "77",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438552",
+      "season": "2023-2024",
+      "utcDate": "2023-10-01T12:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "267",
+      "awayTeamId": "83",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "438546",
+      "season": "2023-2024",
+      "utcDate": "2023-10-01T14:15:00Z",
+      "matchday": 8,
+      "homeTeamId": "263",
+      "awayTeamId": "79",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438544",
+      "season": "2023-2024",
+      "utcDate": "2023-10-01T19:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "78",
+      "awayTeamId": "264",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438545",
+      "season": "2023-2024",
+      "utcDate": "2023-10-01T19:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "90",
+      "awayTeamId": "95",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438553",
+      "season": "2023-2024",
+      "utcDate": "2023-10-02T19:00:00Z",
+      "matchday": 8,
+      "homeTeamId": "275",
+      "awayTeamId": "558",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438554",
+      "season": "2023-2024",
+      "utcDate": "2023-10-06T19:00:00Z",
+      "matchday": 9,
+      "homeTeamId": "77",
+      "awayTeamId": "267",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438558",
+      "season": "2023-2024",
+      "utcDate": "2023-10-07T12:00:00Z",
+      "matchday": 9,
+      "homeTeamId": "264",
+      "awayTeamId": "298",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438563",
+      "season": "2023-2024",
+      "utcDate": "2023-10-07T14:15:00Z",
+      "matchday": 9,
+      "homeTeamId": "86",
+      "awayTeamId": "79",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438562",
+      "season": "2023-2024",
+      "utcDate": "2023-10-07T16:30:00Z",
+      "matchday": 9,
+      "homeTeamId": "89",
+      "awayTeamId": "95",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438560",
+      "season": "2023-2024",
+      "utcDate": "2023-10-07T19:00:00Z",
+      "matchday": 9,
+      "homeTeamId": "559",
+      "awayTeamId": "87",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438561",
+      "season": "2023-2024",
+      "utcDate": "2023-10-08T12:00:00Z",
+      "matchday": 9,
+      "homeTeamId": "94",
+      "awayTeamId": "275",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438555",
+      "season": "2023-2024",
+      "utcDate": "2023-10-08T14:15:00Z",
+      "matchday": 9,
+      "homeTeamId": "78",
+      "awayTeamId": "92",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438556",
+      "season": "2023-2024",
+      "utcDate": "2023-10-08T16:30:00Z",
+      "matchday": 9,
+      "homeTeamId": "558",
+      "awayTeamId": "82",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438557",
+      "season": "2023-2024",
+      "utcDate": "2023-10-08T16:30:00Z",
+      "matchday": 9,
+      "homeTeamId": "263",
+      "awayTeamId": "90",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438559",
+      "season": "2023-2024",
+      "utcDate": "2023-10-08T19:00:00Z",
+      "matchday": 9,
+      "homeTeamId": "83",
+      "awayTeamId": "81",
+      "homeTeam": "Granada CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438564",
+      "season": "2023-2024",
+      "utcDate": "2023-10-20T19:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "79",
+      "awayTeamId": "83",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438572",
+      "season": "2023-2024",
+      "utcDate": "2023-10-21T12:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "92",
+      "awayTeamId": "89",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438567",
+      "season": "2023-2024",
+      "utcDate": "2023-10-21T14:15:00Z",
+      "matchday": 10,
+      "homeTeamId": "82",
+      "awayTeamId": "90",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438569",
+      "season": "2023-2024",
+      "utcDate": "2023-10-21T16:30:00Z",
+      "matchday": 10,
+      "homeTeamId": "559",
+      "awayTeamId": "86",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438565",
+      "season": "2023-2024",
+      "utcDate": "2023-10-21T19:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "558",
+      "awayTeamId": "78",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438573",
+      "season": "2023-2024",
+      "utcDate": "2023-10-22T12:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "275",
+      "awayTeamId": "87",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438568",
+      "season": "2023-2024",
+      "utcDate": "2023-10-22T14:15:00Z",
+      "matchday": 10,
+      "homeTeamId": "298",
+      "awayTeamId": "267",
+      "homeTeam": "Girona FC",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "438571",
+      "season": "2023-2024",
+      "utcDate": "2023-10-22T16:30:00Z",
+      "matchday": 10,
+      "homeTeamId": "94",
+      "awayTeamId": "263",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438566",
+      "season": "2023-2024",
+      "utcDate": "2023-10-22T19:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "81",
+      "awayTeamId": "77",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438570",
+      "season": "2023-2024",
+      "utcDate": "2023-10-23T19:00:00Z",
+      "matchday": 10,
+      "homeTeamId": "95",
+      "awayTeamId": "264",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438579",
+      "season": "2023-2024",
+      "utcDate": "2023-10-27T19:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "298",
+      "awayTeamId": "558",
+      "homeTeam": "Girona FC",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438583",
+      "season": "2023-2024",
+      "utcDate": "2023-10-28T12:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "267",
+      "awayTeamId": "275",
+      "homeTeam": "UD Almería",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438577",
+      "season": "2023-2024",
+      "utcDate": "2023-10-28T14:15:00Z",
+      "matchday": 11,
+      "homeTeamId": "81",
+      "awayTeamId": "86",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438582",
+      "season": "2023-2024",
+      "utcDate": "2023-10-28T16:30:00Z",
+      "matchday": 11,
+      "homeTeamId": "89",
+      "awayTeamId": "82",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438578",
+      "season": "2023-2024",
+      "utcDate": "2023-10-28T19:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "264",
+      "awayTeamId": "559",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438576",
+      "season": "2023-2024",
+      "utcDate": "2023-10-29T13:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "90",
+      "awayTeamId": "79",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438581",
+      "season": "2023-2024",
+      "utcDate": "2023-10-29T15:15:00Z",
+      "matchday": 11,
+      "homeTeamId": "87",
+      "awayTeamId": "92",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438574",
+      "season": "2023-2024",
+      "utcDate": "2023-10-29T17:30:00Z",
+      "matchday": 11,
+      "homeTeamId": "77",
+      "awayTeamId": "95",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438575",
+      "season": "2023-2024",
+      "utcDate": "2023-10-29T20:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "78",
+      "awayTeamId": "263",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438580",
+      "season": "2023-2024",
+      "utcDate": "2023-10-30T20:00:00Z",
+      "matchday": 11,
+      "homeTeamId": "83",
+      "awayTeamId": "94",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438593",
+      "season": "2023-2024",
+      "utcDate": "2023-11-03T20:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "275",
+      "awayTeamId": "78",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438585",
+      "season": "2023-2024",
+      "utcDate": "2023-11-04T13:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "79",
+      "awayTeamId": "298",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "438584",
+      "season": "2023-2024",
+      "utcDate": "2023-11-04T15:15:00Z",
+      "matchday": 12,
+      "homeTeamId": "90",
+      "awayTeamId": "89",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438586",
+      "season": "2023-2024",
+      "utcDate": "2023-11-04T17:30:00Z",
+      "matchday": 12,
+      "homeTeamId": "558",
+      "awayTeamId": "559",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438592",
+      "season": "2023-2024",
+      "utcDate": "2023-11-04T20:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "92",
+      "awayTeamId": "81",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438587",
+      "season": "2023-2024",
+      "utcDate": "2023-11-05T13:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "263",
+      "awayTeamId": "267",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438589",
+      "season": "2023-2024",
+      "utcDate": "2023-11-05T15:15:00Z",
+      "matchday": 12,
+      "homeTeamId": "95",
+      "awayTeamId": "83",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438590",
+      "season": "2023-2024",
+      "utcDate": "2023-11-05T17:30:00Z",
+      "matchday": 12,
+      "homeTeamId": "94",
+      "awayTeamId": "77",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438591",
+      "season": "2023-2024",
+      "utcDate": "2023-11-05T20:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "86",
+      "awayTeamId": "87",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438588",
+      "season": "2023-2024",
+      "utcDate": "2023-11-06T20:00:00Z",
+      "matchday": 12,
+      "homeTeamId": "82",
+      "awayTeamId": "264",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438594",
+      "season": "2023-2024",
+      "utcDate": "2023-11-10T20:00:00Z",
+      "matchday": 13,
+      "homeTeamId": "77",
+      "awayTeamId": "558",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "438600",
+      "season": "2023-2024",
+      "utcDate": "2023-11-11T13:00:00Z",
+      "matchday": 13,
+      "homeTeamId": "87",
+      "awayTeamId": "298",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438603",
+      "season": "2023-2024",
+      "utcDate": "2023-11-11T15:15:00Z",
+      "matchday": 13,
+      "homeTeamId": "267",
+      "awayTeamId": "92",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438596",
+      "season": "2023-2024",
+      "utcDate": "2023-11-11T17:30:00Z",
+      "matchday": 13,
+      "homeTeamId": "79",
+      "awayTeamId": "275",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438598",
+      "season": "2023-2024",
+      "utcDate": "2023-11-11T17:30:00Z",
+      "matchday": 13,
+      "homeTeamId": "83",
+      "awayTeamId": "82",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438602",
+      "season": "2023-2024",
+      "utcDate": "2023-11-11T20:00:00Z",
+      "matchday": 13,
+      "homeTeamId": "86",
+      "awayTeamId": "95",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "438597",
+      "season": "2023-2024",
+      "utcDate": "2023-11-12T15:15:00Z",
+      "matchday": 13,
+      "homeTeamId": "81",
+      "awayTeamId": "263",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438599",
+      "season": "2023-2024",
+      "utcDate": "2023-11-12T17:30:00Z",
+      "matchday": 13,
+      "homeTeamId": "559",
+      "awayTeamId": "90",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438595",
+      "season": "2023-2024",
+      "utcDate": "2023-11-12T20:00:00Z",
+      "matchday": 13,
+      "homeTeamId": "78",
+      "awayTeamId": "94",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438606",
+      "season": "2023-2024",
+      "utcDate": "2023-11-24T20:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "263",
+      "awayTeamId": "83",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438612",
+      "season": "2023-2024",
+      "utcDate": "2023-11-25T13:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "87",
+      "awayTeamId": "81",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438610",
+      "season": "2023-2024",
+      "utcDate": "2023-11-25T15:15:00Z",
+      "matchday": 14,
+      "homeTeamId": "95",
+      "awayTeamId": "558",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438608",
+      "season": "2023-2024",
+      "utcDate": "2023-11-25T17:30:00Z",
+      "matchday": 14,
+      "homeTeamId": "82",
+      "awayTeamId": "267",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438604",
+      "season": "2023-2024",
+      "utcDate": "2023-11-25T20:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "78",
+      "awayTeamId": "89",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438611",
+      "season": "2023-2024",
+      "utcDate": "2023-11-26T13:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "94",
+      "awayTeamId": "79",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438613",
+      "season": "2023-2024",
+      "utcDate": "2023-11-26T15:15:00Z",
+      "matchday": 14,
+      "homeTeamId": "92",
+      "awayTeamId": "559",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438607",
+      "season": "2023-2024",
+      "utcDate": "2023-11-26T17:30:00Z",
+      "matchday": 14,
+      "homeTeamId": "264",
+      "awayTeamId": "86",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438605",
+      "season": "2023-2024",
+      "utcDate": "2023-11-26T20:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "90",
+      "awayTeamId": "275",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438609",
+      "season": "2023-2024",
+      "utcDate": "2023-11-27T20:00:00Z",
+      "matchday": 14,
+      "homeTeamId": "298",
+      "awayTeamId": "77",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438601",
+      "season": "2023-2024",
+      "utcDate": "2023-11-29T20:00:00Z",
+      "matchday": 13,
+      "homeTeamId": "89",
+      "awayTeamId": "264",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438623",
+      "season": "2023-2024",
+      "utcDate": "2023-12-01T20:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "275",
+      "awayTeamId": "82",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438618",
+      "season": "2023-2024",
+      "utcDate": "2023-12-02T13:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "298",
+      "awayTeamId": "95",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438614",
+      "season": "2023-2024",
+      "utcDate": "2023-12-02T15:15:00Z",
+      "matchday": 15,
+      "homeTeamId": "77",
+      "awayTeamId": "87",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438621",
+      "season": "2023-2024",
+      "utcDate": "2023-12-02T17:30:00Z",
+      "matchday": 15,
+      "homeTeamId": "86",
+      "awayTeamId": "83",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438615",
+      "season": "2023-2024",
+      "utcDate": "2023-12-02T20:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "79",
+      "awayTeamId": "92",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438620",
+      "season": "2023-2024",
+      "utcDate": "2023-12-03T13:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "89",
+      "awayTeamId": "263",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438622",
+      "season": "2023-2024",
+      "utcDate": "2023-12-03T15:15:00Z",
+      "matchday": 15,
+      "homeTeamId": "267",
+      "awayTeamId": "90",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438619",
+      "season": "2023-2024",
+      "utcDate": "2023-12-03T17:30:00Z",
+      "matchday": 15,
+      "homeTeamId": "559",
+      "awayTeamId": "94",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438617",
+      "season": "2023-2024",
+      "utcDate": "2023-12-03T20:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "81",
+      "awayTeamId": "78",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438616",
+      "season": "2023-2024",
+      "utcDate": "2023-12-04T20:00:00Z",
+      "matchday": 15,
+      "homeTeamId": "558",
+      "awayTeamId": "264",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438629",
+      "season": "2023-2024",
+      "utcDate": "2023-12-08T20:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "82",
+      "awayTeamId": "95",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438626",
+      "season": "2023-2024",
+      "utcDate": "2023-12-09T13:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "263",
+      "awayTeamId": "275",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438625",
+      "season": "2023-2024",
+      "utcDate": "2023-12-09T15:15:00Z",
+      "matchday": 16,
+      "homeTeamId": "90",
+      "awayTeamId": "86",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438631",
+      "season": "2023-2024",
+      "utcDate": "2023-12-09T17:30:00Z",
+      "matchday": 16,
+      "homeTeamId": "94",
+      "awayTeamId": "92",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438633",
+      "season": "2023-2024",
+      "utcDate": "2023-12-09T20:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "89",
+      "awayTeamId": "559",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438624",
+      "season": "2023-2024",
+      "utcDate": "2023-12-10T13:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "78",
+      "awayTeamId": "267",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438628",
+      "season": "2023-2024",
+      "utcDate": "2023-12-10T17:30:00Z",
+      "matchday": 16,
+      "homeTeamId": "264",
+      "awayTeamId": "79",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438627",
+      "season": "2023-2024",
+      "utcDate": "2023-12-10T20:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "81",
+      "awayTeamId": "298",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "438630",
+      "season": "2023-2024",
+      "utcDate": "2023-12-11T20:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "83",
+      "awayTeamId": "77",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438632",
+      "season": "2023-2024",
+      "utcDate": "2023-12-11T20:00:00Z",
+      "matchday": 16,
+      "homeTeamId": "87",
+      "awayTeamId": "558",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438635",
+      "season": "2023-2024",
+      "utcDate": "2023-12-15T20:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "79",
+      "awayTeamId": "87",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438636",
+      "season": "2023-2024",
+      "utcDate": "2023-12-16T13:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "558",
+      "awayTeamId": "83",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438634",
+      "season": "2023-2024",
+      "utcDate": "2023-12-16T15:15:00Z",
+      "matchday": 17,
+      "homeTeamId": "77",
+      "awayTeamId": "78",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438638",
+      "season": "2023-2024",
+      "utcDate": "2023-12-16T17:30:00Z",
+      "matchday": 17,
+      "homeTeamId": "559",
+      "awayTeamId": "82",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438639",
+      "season": "2023-2024",
+      "utcDate": "2023-12-16T20:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "95",
+      "awayTeamId": "81",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438642",
+      "season": "2023-2024",
+      "utcDate": "2023-12-17T13:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "267",
+      "awayTeamId": "89",
+      "homeTeam": "UD Almería",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438641",
+      "season": "2023-2024",
+      "utcDate": "2023-12-17T15:15:00Z",
+      "matchday": 17,
+      "homeTeamId": "92",
+      "awayTeamId": "90",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438643",
+      "season": "2023-2024",
+      "utcDate": "2023-12-17T17:30:00Z",
+      "matchday": 17,
+      "homeTeamId": "275",
+      "awayTeamId": "264",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438640",
+      "season": "2023-2024",
+      "utcDate": "2023-12-17T20:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "86",
+      "awayTeamId": "94",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "438637",
+      "season": "2023-2024",
+      "utcDate": "2023-12-18T20:00:00Z",
+      "matchday": 17,
+      "homeTeamId": "298",
+      "awayTeamId": "263",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438652",
+      "season": "2023-2024",
+      "utcDate": "2023-12-19T18:00:00Z",
+      "matchday": 18,
+      "homeTeamId": "87",
+      "awayTeamId": "95",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438645",
+      "season": "2023-2024",
+      "utcDate": "2023-12-19T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "78",
+      "awayTeamId": "82",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "438650",
+      "season": "2023-2024",
+      "utcDate": "2023-12-19T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "83",
+      "awayTeamId": "559",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438648",
+      "season": "2023-2024",
+      "utcDate": "2023-12-20T18:00:00Z",
+      "matchday": 18,
+      "homeTeamId": "81",
+      "awayTeamId": "267",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438644",
+      "season": "2023-2024",
+      "utcDate": "2023-12-20T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "77",
+      "awayTeamId": "275",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438651",
+      "season": "2023-2024",
+      "utcDate": "2023-12-20T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "94",
+      "awayTeamId": "558",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438646",
+      "season": "2023-2024",
+      "utcDate": "2023-12-21T18:00:00Z",
+      "matchday": 18,
+      "homeTeamId": "90",
+      "awayTeamId": "298",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438649",
+      "season": "2023-2024",
+      "utcDate": "2023-12-21T18:00:00Z",
+      "matchday": 18,
+      "homeTeamId": "264",
+      "awayTeamId": "92",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438647",
+      "season": "2023-2024",
+      "utcDate": "2023-12-21T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "263",
+      "awayTeamId": "86",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438653",
+      "season": "2023-2024",
+      "utcDate": "2023-12-21T20:30:00Z",
+      "matchday": 18,
+      "homeTeamId": "89",
+      "awayTeamId": "79",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438504",
+      "season": "2023-2024",
+      "utcDate": "2023-12-23T15:15:00Z",
+      "matchday": 4,
+      "homeTeamId": "78",
+      "awayTeamId": "559",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438656",
+      "season": "2023-2024",
+      "utcDate": "2024-01-02T16:00:00Z",
+      "matchday": 19,
+      "homeTeamId": "82",
+      "awayTeamId": "87",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438662",
+      "season": "2023-2024",
+      "utcDate": "2024-01-02T18:15:00Z",
+      "matchday": 19,
+      "homeTeamId": "92",
+      "awayTeamId": "263",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438660",
+      "season": "2023-2024",
+      "utcDate": "2024-01-02T20:30:00Z",
+      "matchday": 19,
+      "homeTeamId": "95",
+      "awayTeamId": "94",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438658",
+      "season": "2023-2024",
+      "utcDate": "2024-01-03T16:00:00Z",
+      "matchday": 19,
+      "homeTeamId": "83",
+      "awayTeamId": "264",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438655",
+      "season": "2023-2024",
+      "utcDate": "2024-01-03T18:15:00Z",
+      "matchday": 19,
+      "homeTeamId": "558",
+      "awayTeamId": "90",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438661",
+      "season": "2023-2024",
+      "utcDate": "2024-01-03T18:15:00Z",
+      "matchday": 19,
+      "homeTeamId": "86",
+      "awayTeamId": "89",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438657",
+      "season": "2023-2024",
+      "utcDate": "2024-01-03T20:30:00Z",
+      "matchday": 19,
+      "homeTeamId": "298",
+      "awayTeamId": "78",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 4,
+        "away": 3
+      }
+    },
+    {
+      "id": "438654",
+      "season": "2023-2024",
+      "utcDate": "2024-01-04T16:00:00Z",
+      "matchday": 19,
+      "homeTeamId": "79",
+      "awayTeamId": "267",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438659",
+      "season": "2023-2024",
+      "utcDate": "2024-01-04T18:15:00Z",
+      "matchday": 19,
+      "homeTeamId": "559",
+      "awayTeamId": "77",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438663",
+      "season": "2023-2024",
+      "utcDate": "2024-01-04T20:30:00Z",
+      "matchday": 19,
+      "homeTeamId": "275",
+      "awayTeamId": "81",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438670",
+      "season": "2023-2024",
+      "utcDate": "2024-01-12T20:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "559",
+      "awayTeamId": "263",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438673",
+      "season": "2023-2024",
+      "utcDate": "2024-01-13T13:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "275",
+      "awayTeamId": "94",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438671",
+      "season": "2023-2024",
+      "utcDate": "2024-01-13T15:15:00Z",
+      "matchday": 20,
+      "homeTeamId": "89",
+      "awayTeamId": "558",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438664",
+      "season": "2023-2024",
+      "utcDate": "2024-01-13T17:30:00Z",
+      "matchday": 20,
+      "homeTeamId": "77",
+      "awayTeamId": "92",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438666",
+      "season": "2023-2024",
+      "utcDate": "2024-01-13T20:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "90",
+      "awayTeamId": "83",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438672",
+      "season": "2023-2024",
+      "utcDate": "2024-01-14T13:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "267",
+      "awayTeamId": "298",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438668",
+      "season": "2023-2024",
+      "utcDate": "2024-01-14T15:15:00Z",
+      "matchday": 20,
+      "homeTeamId": "264",
+      "awayTeamId": "95",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "438677",
+      "season": "2023-2024",
+      "utcDate": "2024-01-19T20:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "263",
+      "awayTeamId": "264",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438682",
+      "season": "2023-2024",
+      "utcDate": "2024-01-20T13:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "87",
+      "awayTeamId": "275",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438681",
+      "season": "2023-2024",
+      "utcDate": "2024-01-20T15:15:00Z",
+      "matchday": 21,
+      "homeTeamId": "94",
+      "awayTeamId": "89",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438680",
+      "season": "2023-2024",
+      "utcDate": "2024-01-20T17:30:00Z",
+      "matchday": 21,
+      "homeTeamId": "95",
+      "awayTeamId": "77",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438676",
+      "season": "2023-2024",
+      "utcDate": "2024-01-20T20:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "558",
+      "awayTeamId": "92",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438675",
+      "season": "2023-2024",
+      "utcDate": "2024-01-21T13:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "79",
+      "awayTeamId": "82",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438683",
+      "season": "2023-2024",
+      "utcDate": "2024-01-21T15:15:00Z",
+      "matchday": 21,
+      "homeTeamId": "86",
+      "awayTeamId": "267",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438674",
+      "season": "2023-2024",
+      "utcDate": "2024-01-21T17:30:00Z",
+      "matchday": 21,
+      "homeTeamId": "90",
+      "awayTeamId": "81",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "438678",
+      "season": "2023-2024",
+      "utcDate": "2024-01-21T20:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "298",
+      "awayTeamId": "559",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "438679",
+      "season": "2023-2024",
+      "utcDate": "2024-01-22T20:00:00Z",
+      "matchday": 21,
+      "homeTeamId": "83",
+      "awayTeamId": "78",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438692",
+      "season": "2023-2024",
+      "utcDate": "2024-01-26T20:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "267",
+      "awayTeamId": "263",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438691",
+      "season": "2023-2024",
+      "utcDate": "2024-01-27T13:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "92",
+      "awayTeamId": "87",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438693",
+      "season": "2023-2024",
+      "utcDate": "2024-01-27T15:15:00Z",
+      "matchday": 22,
+      "homeTeamId": "275",
+      "awayTeamId": "86",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438686",
+      "season": "2023-2024",
+      "utcDate": "2024-01-27T17:30:00Z",
+      "matchday": 22,
+      "homeTeamId": "81",
+      "awayTeamId": "94",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 5
+      }
+    },
+    {
+      "id": "438690",
+      "season": "2023-2024",
+      "utcDate": "2024-01-27T20:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "89",
+      "awayTeamId": "90",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438685",
+      "season": "2023-2024",
+      "utcDate": "2024-01-28T13:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "558",
+      "awayTeamId": "298",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438687",
+      "season": "2023-2024",
+      "utcDate": "2024-01-28T15:15:00Z",
+      "matchday": 22,
+      "homeTeamId": "264",
+      "awayTeamId": "77",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438689",
+      "season": "2023-2024",
+      "utcDate": "2024-01-28T17:30:00Z",
+      "matchday": 22,
+      "homeTeamId": "559",
+      "awayTeamId": "79",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438684",
+      "season": "2023-2024",
+      "utcDate": "2024-01-28T20:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "78",
+      "awayTeamId": "95",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438688",
+      "season": "2023-2024",
+      "utcDate": "2024-01-29T20:00:00Z",
+      "matchday": 22,
+      "homeTeamId": "82",
+      "awayTeamId": "83",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438667",
+      "season": "2023-2024",
+      "utcDate": "2024-01-31T18:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "81",
+      "awayTeamId": "79",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438665",
+      "season": "2023-2024",
+      "utcDate": "2024-01-31T20:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "78",
+      "awayTeamId": "87",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438669",
+      "season": "2023-2024",
+      "utcDate": "2024-02-01T20:00:00Z",
+      "matchday": 20,
+      "homeTeamId": "82",
+      "awayTeamId": "86",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438694",
+      "season": "2023-2024",
+      "utcDate": "2024-02-02T20:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "77",
+      "awayTeamId": "89",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438700",
+      "season": "2023-2024",
+      "utcDate": "2024-02-03T13:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "95",
+      "awayTeamId": "267",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438699",
+      "season": "2023-2024",
+      "utcDate": "2024-02-03T15:15:00Z",
+      "matchday": 23,
+      "homeTeamId": "83",
+      "awayTeamId": "275",
+      "homeTeam": "Granada CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438697",
+      "season": "2023-2024",
+      "utcDate": "2024-02-03T17:30:00Z",
+      "matchday": 23,
+      "homeTeamId": "263",
+      "awayTeamId": "81",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438698",
+      "season": "2023-2024",
+      "utcDate": "2024-02-03T20:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "298",
+      "awayTeamId": "92",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438701",
+      "season": "2023-2024",
+      "utcDate": "2024-02-04T13:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "94",
+      "awayTeamId": "264",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438696",
+      "season": "2023-2024",
+      "utcDate": "2024-02-04T15:15:00Z",
+      "matchday": 23,
+      "homeTeamId": "79",
+      "awayTeamId": "558",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438695",
+      "season": "2023-2024",
+      "utcDate": "2024-02-04T17:30:00Z",
+      "matchday": 23,
+      "homeTeamId": "90",
+      "awayTeamId": "82",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438703",
+      "season": "2023-2024",
+      "utcDate": "2024-02-04T20:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "86",
+      "awayTeamId": "78",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438702",
+      "season": "2023-2024",
+      "utcDate": "2024-02-05T20:00:00Z",
+      "matchday": 23,
+      "homeTeamId": "87",
+      "awayTeamId": "559",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438706",
+      "season": "2023-2024",
+      "utcDate": "2024-02-09T20:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "264",
+      "awayTeamId": "90",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438704",
+      "season": "2023-2024",
+      "utcDate": "2024-02-10T13:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "263",
+      "awayTeamId": "94",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438711",
+      "season": "2023-2024",
+      "utcDate": "2024-02-10T15:15:00Z",
+      "matchday": 24,
+      "homeTeamId": "92",
+      "awayTeamId": "79",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438710",
+      "season": "2023-2024",
+      "utcDate": "2024-02-10T17:30:00Z",
+      "matchday": 24,
+      "homeTeamId": "86",
+      "awayTeamId": "298",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438713",
+      "season": "2023-2024",
+      "utcDate": "2024-02-10T20:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "275",
+      "awayTeamId": "95",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438707",
+      "season": "2023-2024",
+      "utcDate": "2024-02-11T13:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "82",
+      "awayTeamId": "558",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438709",
+      "season": "2023-2024",
+      "utcDate": "2024-02-11T15:15:00Z",
+      "matchday": 24,
+      "homeTeamId": "89",
+      "awayTeamId": "87",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438708",
+      "season": "2023-2024",
+      "utcDate": "2024-02-11T17:30:00Z",
+      "matchday": 24,
+      "homeTeamId": "559",
+      "awayTeamId": "78",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438705",
+      "season": "2023-2024",
+      "utcDate": "2024-02-11T20:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "81",
+      "awayTeamId": "83",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "438712",
+      "season": "2023-2024",
+      "utcDate": "2024-02-12T20:00:00Z",
+      "matchday": 24,
+      "homeTeamId": "267",
+      "awayTeamId": "77",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438721",
+      "season": "2023-2024",
+      "utcDate": "2024-02-16T20:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "94",
+      "awayTeamId": "82",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438715",
+      "season": "2023-2024",
+      "utcDate": "2024-02-17T13:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "78",
+      "awayTeamId": "275",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "438717",
+      "season": "2023-2024",
+      "utcDate": "2024-02-17T15:15:00Z",
+      "matchday": 25,
+      "homeTeamId": "79",
+      "awayTeamId": "264",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438718",
+      "season": "2023-2024",
+      "utcDate": "2024-02-17T17:30:00Z",
+      "matchday": 25,
+      "homeTeamId": "558",
+      "awayTeamId": "81",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438720",
+      "season": "2023-2024",
+      "utcDate": "2024-02-17T20:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "95",
+      "awayTeamId": "559",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438722",
+      "season": "2023-2024",
+      "utcDate": "2024-02-18T13:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "87",
+      "awayTeamId": "86",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438719",
+      "season": "2023-2024",
+      "utcDate": "2024-02-18T15:15:00Z",
+      "matchday": 25,
+      "homeTeamId": "83",
+      "awayTeamId": "267",
+      "homeTeam": "Granada CF",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438723",
+      "season": "2023-2024",
+      "utcDate": "2024-02-18T17:30:00Z",
+      "matchday": 25,
+      "homeTeamId": "89",
+      "awayTeamId": "92",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438716",
+      "season": "2023-2024",
+      "utcDate": "2024-02-18T20:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "90",
+      "awayTeamId": "263",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438714",
+      "season": "2023-2024",
+      "utcDate": "2024-02-19T20:00:00Z",
+      "matchday": 25,
+      "homeTeamId": "77",
+      "awayTeamId": "298",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438731",
+      "season": "2023-2024",
+      "utcDate": "2024-02-23T20:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "92",
+      "awayTeamId": "94",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438726",
+      "season": "2023-2024",
+      "utcDate": "2024-02-24T15:15:00Z",
+      "matchday": 26,
+      "homeTeamId": "81",
+      "awayTeamId": "82",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438725",
+      "season": "2023-2024",
+      "utcDate": "2024-02-24T17:30:00Z",
+      "matchday": 26,
+      "homeTeamId": "263",
+      "awayTeamId": "89",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438732",
+      "season": "2023-2024",
+      "utcDate": "2024-02-24T20:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "267",
+      "awayTeamId": "78",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438727",
+      "season": "2023-2024",
+      "utcDate": "2024-02-25T13:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "264",
+      "awayTeamId": "558",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438724",
+      "season": "2023-2024",
+      "utcDate": "2024-02-25T15:15:00Z",
+      "matchday": 26,
+      "homeTeamId": "90",
+      "awayTeamId": "77",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438733",
+      "season": "2023-2024",
+      "utcDate": "2024-02-25T17:30:00Z",
+      "matchday": 26,
+      "homeTeamId": "275",
+      "awayTeamId": "79",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438730",
+      "season": "2023-2024",
+      "utcDate": "2024-02-25T20:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "86",
+      "awayTeamId": "559",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438728",
+      "season": "2023-2024",
+      "utcDate": "2024-02-26T20:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "298",
+      "awayTeamId": "87",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438737",
+      "season": "2023-2024",
+      "utcDate": "2024-03-01T20:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "558",
+      "awayTeamId": "267",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438739",
+      "season": "2023-2024",
+      "utcDate": "2024-03-02T13:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "559",
+      "awayTeamId": "92",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438742",
+      "season": "2023-2024",
+      "utcDate": "2024-03-02T15:15:00Z",
+      "matchday": 27,
+      "homeTeamId": "87",
+      "awayTeamId": "264",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438738",
+      "season": "2023-2024",
+      "utcDate": "2024-03-02T17:30:00Z",
+      "matchday": 27,
+      "homeTeamId": "82",
+      "awayTeamId": "275",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "438740",
+      "season": "2023-2024",
+      "utcDate": "2024-03-02T20:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "95",
+      "awayTeamId": "86",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438741",
+      "season": "2023-2024",
+      "utcDate": "2024-03-03T13:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "94",
+      "awayTeamId": "83",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "438735",
+      "season": "2023-2024",
+      "utcDate": "2024-03-03T15:15:00Z",
+      "matchday": 27,
+      "homeTeamId": "78",
+      "awayTeamId": "90",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438743",
+      "season": "2023-2024",
+      "utcDate": "2024-03-03T17:30:00Z",
+      "matchday": 27,
+      "homeTeamId": "89",
+      "awayTeamId": "298",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438734",
+      "season": "2023-2024",
+      "utcDate": "2024-03-03T20:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "77",
+      "awayTeamId": "81",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438736",
+      "season": "2023-2024",
+      "utcDate": "2024-03-04T20:00:00Z",
+      "matchday": 27,
+      "homeTeamId": "79",
+      "awayTeamId": "263",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438746",
+      "season": "2023-2024",
+      "utcDate": "2024-03-08T20:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "81",
+      "awayTeamId": "89",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438750",
+      "season": "2023-2024",
+      "utcDate": "2024-03-09T13:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "95",
+      "awayTeamId": "82",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438747",
+      "season": "2023-2024",
+      "utcDate": "2024-03-09T15:15:00Z",
+      "matchday": 28,
+      "homeTeamId": "264",
+      "awayTeamId": "78",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438749",
+      "season": "2023-2024",
+      "utcDate": "2024-03-09T17:30:00Z",
+      "matchday": 28,
+      "homeTeamId": "83",
+      "awayTeamId": "92",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438748",
+      "season": "2023-2024",
+      "utcDate": "2024-03-09T20:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "298",
+      "awayTeamId": "79",
+      "homeTeam": "Girona FC",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438745",
+      "season": "2023-2024",
+      "utcDate": "2024-03-10T13:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "263",
+      "awayTeamId": "87",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438753",
+      "season": "2023-2024",
+      "utcDate": "2024-03-10T15:15:00Z",
+      "matchday": 28,
+      "homeTeamId": "275",
+      "awayTeamId": "77",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438751",
+      "season": "2023-2024",
+      "utcDate": "2024-03-10T17:30:00Z",
+      "matchday": 28,
+      "homeTeamId": "86",
+      "awayTeamId": "558",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "438744",
+      "season": "2023-2024",
+      "utcDate": "2024-03-10T20:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "90",
+      "awayTeamId": "94",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "438752",
+      "season": "2023-2024",
+      "utcDate": "2024-03-11T20:00:00Z",
+      "matchday": 28,
+      "homeTeamId": "267",
+      "awayTeamId": "559",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438762",
+      "season": "2023-2024",
+      "utcDate": "2024-03-15T20:00:00Z",
+      "matchday": 29,
+      "homeTeamId": "92",
+      "awayTeamId": "264",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438761",
+      "season": "2023-2024",
+      "utcDate": "2024-03-16T13:00:00Z",
+      "matchday": 29,
+      "homeTeamId": "89",
+      "awayTeamId": "83",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438756",
+      "season": "2023-2024",
+      "utcDate": "2024-03-16T15:15:00Z",
+      "matchday": 29,
+      "homeTeamId": "79",
+      "awayTeamId": "86",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "438757",
+      "season": "2023-2024",
+      "utcDate": "2024-03-16T17:30:00Z",
+      "matchday": 29,
+      "homeTeamId": "82",
+      "awayTeamId": "298",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438754",
+      "season": "2023-2024",
+      "utcDate": "2024-03-16T20:00:00Z",
+      "matchday": 29,
+      "homeTeamId": "77",
+      "awayTeamId": "263",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438758",
+      "season": "2023-2024",
+      "utcDate": "2024-03-17T13:00:00Z",
+      "matchday": 29,
+      "homeTeamId": "559",
+      "awayTeamId": "558",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438759",
+      "season": "2023-2024",
+      "utcDate": "2024-03-17T15:15:00Z",
+      "matchday": 29,
+      "homeTeamId": "94",
+      "awayTeamId": "95",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438763",
+      "season": "2023-2024",
+      "utcDate": "2024-03-17T15:15:00Z",
+      "matchday": 29,
+      "homeTeamId": "275",
+      "awayTeamId": "267",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438760",
+      "season": "2023-2024",
+      "utcDate": "2024-03-17T17:30:00Z",
+      "matchday": 29,
+      "homeTeamId": "87",
+      "awayTeamId": "90",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438755",
+      "season": "2023-2024",
+      "utcDate": "2024-03-17T20:00:00Z",
+      "matchday": 29,
+      "homeTeamId": "78",
+      "awayTeamId": "81",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438767",
+      "season": "2023-2024",
+      "utcDate": "2024-03-29T20:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "264",
+      "awayTeamId": "83",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438768",
+      "season": "2023-2024",
+      "utcDate": "2024-03-30T13:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "82",
+      "awayTeamId": "559",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438773",
+      "season": "2023-2024",
+      "utcDate": "2024-03-30T15:15:00Z",
+      "matchday": 30,
+      "homeTeamId": "267",
+      "awayTeamId": "79",
+      "homeTeam": "UD Almería",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438770",
+      "season": "2023-2024",
+      "utcDate": "2024-03-30T17:30:00Z",
+      "matchday": 30,
+      "homeTeamId": "95",
+      "awayTeamId": "89",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438766",
+      "season": "2023-2024",
+      "utcDate": "2024-03-30T20:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "81",
+      "awayTeamId": "275",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438764",
+      "season": "2023-2024",
+      "utcDate": "2024-03-31T12:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "558",
+      "awayTeamId": "87",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438769",
+      "season": "2023-2024",
+      "utcDate": "2024-03-31T14:15:00Z",
+      "matchday": 30,
+      "homeTeamId": "298",
+      "awayTeamId": "90",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438765",
+      "season": "2023-2024",
+      "utcDate": "2024-03-31T16:30:00Z",
+      "matchday": 30,
+      "homeTeamId": "263",
+      "awayTeamId": "92",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438772",
+      "season": "2023-2024",
+      "utcDate": "2024-03-31T19:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "86",
+      "awayTeamId": "77",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438771",
+      "season": "2023-2024",
+      "utcDate": "2024-04-01T19:00:00Z",
+      "matchday": 30,
+      "homeTeamId": "94",
+      "awayTeamId": "78",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438729",
+      "season": "2023-2024",
+      "utcDate": "2024-04-04T18:00:00Z",
+      "matchday": 26,
+      "homeTeamId": "83",
+      "awayTeamId": "95",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438776",
+      "season": "2023-2024",
+      "utcDate": "2024-04-12T19:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "90",
+      "awayTeamId": "558",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438775",
+      "season": "2023-2024",
+      "utcDate": "2024-04-13T12:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "78",
+      "awayTeamId": "298",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438780",
+      "season": "2023-2024",
+      "utcDate": "2024-04-13T14:15:00Z",
+      "matchday": 31,
+      "homeTeamId": "87",
+      "awayTeamId": "82",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438781",
+      "season": "2023-2024",
+      "utcDate": "2024-04-13T16:30:00Z",
+      "matchday": 31,
+      "homeTeamId": "89",
+      "awayTeamId": "86",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438778",
+      "season": "2023-2024",
+      "utcDate": "2024-04-13T19:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "264",
+      "awayTeamId": "81",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438783",
+      "season": "2023-2024",
+      "utcDate": "2024-04-14T12:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "275",
+      "awayTeamId": "559",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438779",
+      "season": "2023-2024",
+      "utcDate": "2024-04-14T14:15:00Z",
+      "matchday": 31,
+      "homeTeamId": "83",
+      "awayTeamId": "263",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438774",
+      "season": "2023-2024",
+      "utcDate": "2024-04-14T16:30:00Z",
+      "matchday": 31,
+      "homeTeamId": "77",
+      "awayTeamId": "94",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438782",
+      "season": "2023-2024",
+      "utcDate": "2024-04-14T19:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "92",
+      "awayTeamId": "267",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438777",
+      "season": "2023-2024",
+      "utcDate": "2024-04-15T19:00:00Z",
+      "matchday": 31,
+      "homeTeamId": "79",
+      "awayTeamId": "95",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438784",
+      "season": "2023-2024",
+      "utcDate": "2024-04-19T19:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "77",
+      "awayTeamId": "83",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438785",
+      "season": "2023-2024",
+      "utcDate": "2024-04-20T12:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "558",
+      "awayTeamId": "275",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "438791",
+      "season": "2023-2024",
+      "utcDate": "2024-04-20T14:15:00Z",
+      "matchday": 32,
+      "homeTeamId": "87",
+      "awayTeamId": "79",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438790",
+      "season": "2023-2024",
+      "utcDate": "2024-04-20T16:30:00Z",
+      "matchday": 32,
+      "homeTeamId": "95",
+      "awayTeamId": "90",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438788",
+      "season": "2023-2024",
+      "utcDate": "2024-04-20T19:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "298",
+      "awayTeamId": "264",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "438787",
+      "season": "2023-2024",
+      "utcDate": "2024-04-21T12:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "82",
+      "awayTeamId": "92",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438793",
+      "season": "2023-2024",
+      "utcDate": "2024-04-21T14:15:00Z",
+      "matchday": 32,
+      "homeTeamId": "267",
+      "awayTeamId": "94",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438786",
+      "season": "2023-2024",
+      "utcDate": "2024-04-21T16:30:00Z",
+      "matchday": 32,
+      "homeTeamId": "263",
+      "awayTeamId": "78",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438792",
+      "season": "2023-2024",
+      "utcDate": "2024-04-21T19:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "86",
+      "awayTeamId": "81",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438789",
+      "season": "2023-2024",
+      "utcDate": "2024-04-22T19:00:00Z",
+      "matchday": 32,
+      "homeTeamId": "559",
+      "awayTeamId": "89",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438801",
+      "season": "2023-2024",
+      "utcDate": "2024-04-26T19:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "92",
+      "awayTeamId": "86",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438803",
+      "season": "2023-2024",
+      "utcDate": "2024-04-27T12:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "275",
+      "awayTeamId": "298",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438802",
+      "season": "2023-2024",
+      "utcDate": "2024-04-27T14:15:00Z",
+      "matchday": 33,
+      "homeTeamId": "267",
+      "awayTeamId": "82",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438796",
+      "season": "2023-2024",
+      "utcDate": "2024-04-27T16:30:00Z",
+      "matchday": 33,
+      "homeTeamId": "263",
+      "awayTeamId": "558",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438794",
+      "season": "2023-2024",
+      "utcDate": "2024-04-27T19:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "78",
+      "awayTeamId": "77",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "438798",
+      "season": "2023-2024",
+      "utcDate": "2024-04-28T12:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "264",
+      "awayTeamId": "89",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438799",
+      "season": "2023-2024",
+      "utcDate": "2024-04-28T14:15:00Z",
+      "matchday": 33,
+      "homeTeamId": "83",
+      "awayTeamId": "79",
+      "homeTeam": "Granada CF",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438800",
+      "season": "2023-2024",
+      "utcDate": "2024-04-28T16:30:00Z",
+      "matchday": 33,
+      "homeTeamId": "94",
+      "awayTeamId": "87",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438795",
+      "season": "2023-2024",
+      "utcDate": "2024-04-28T19:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "90",
+      "awayTeamId": "559",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438797",
+      "season": "2023-2024",
+      "utcDate": "2024-04-29T19:00:00Z",
+      "matchday": 33,
+      "homeTeamId": "81",
+      "awayTeamId": "95",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "438806",
+      "season": "2023-2024",
+      "utcDate": "2024-05-03T19:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "82",
+      "awayTeamId": "77",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438813",
+      "season": "2023-2024",
+      "utcDate": "2024-05-04T12:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "92",
+      "awayTeamId": "275",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438812",
+      "season": "2023-2024",
+      "utcDate": "2024-05-04T14:15:00Z",
+      "matchday": 34,
+      "homeTeamId": "86",
+      "awayTeamId": "264",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438807",
+      "season": "2023-2024",
+      "utcDate": "2024-05-04T16:30:00Z",
+      "matchday": 34,
+      "homeTeamId": "298",
+      "awayTeamId": "81",
+      "homeTeam": "Girona FC",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "438811",
+      "season": "2023-2024",
+      "utcDate": "2024-05-04T19:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "89",
+      "awayTeamId": "78",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438804",
+      "season": "2023-2024",
+      "utcDate": "2024-05-05T12:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "79",
+      "awayTeamId": "90",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438805",
+      "season": "2023-2024",
+      "utcDate": "2024-05-05T14:15:00Z",
+      "matchday": 34,
+      "homeTeamId": "558",
+      "awayTeamId": "94",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438809",
+      "season": "2023-2024",
+      "utcDate": "2024-05-05T16:30:00Z",
+      "matchday": 34,
+      "homeTeamId": "95",
+      "awayTeamId": "263",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438808",
+      "season": "2023-2024",
+      "utcDate": "2024-05-05T19:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "559",
+      "awayTeamId": "83",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438810",
+      "season": "2023-2024",
+      "utcDate": "2024-05-05T19:00:00Z",
+      "matchday": 34,
+      "homeTeamId": "87",
+      "awayTeamId": "267",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438817",
+      "season": "2023-2024",
+      "utcDate": "2024-05-10T19:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "263",
+      "awayTeamId": "298",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438823",
+      "season": "2023-2024",
+      "utcDate": "2024-05-11T12:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "89",
+      "awayTeamId": "275",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438822",
+      "season": "2023-2024",
+      "utcDate": "2024-05-11T14:15:00Z",
+      "matchday": 35,
+      "homeTeamId": "94",
+      "awayTeamId": "559",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438820",
+      "season": "2023-2024",
+      "utcDate": "2024-05-11T16:30:00Z",
+      "matchday": 35,
+      "homeTeamId": "83",
+      "awayTeamId": "86",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "438814",
+      "season": "2023-2024",
+      "utcDate": "2024-05-11T19:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "77",
+      "awayTeamId": "79",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438819",
+      "season": "2023-2024",
+      "utcDate": "2024-05-12T12:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "264",
+      "awayTeamId": "82",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438815",
+      "season": "2023-2024",
+      "utcDate": "2024-05-12T14:15:00Z",
+      "matchday": 35,
+      "homeTeamId": "78",
+      "awayTeamId": "558",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438821",
+      "season": "2023-2024",
+      "utcDate": "2024-05-12T16:30:00Z",
+      "matchday": 35,
+      "homeTeamId": "95",
+      "awayTeamId": "87",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438816",
+      "season": "2023-2024",
+      "utcDate": "2024-05-12T19:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "90",
+      "awayTeamId": "267",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "438818",
+      "season": "2023-2024",
+      "utcDate": "2024-05-13T19:00:00Z",
+      "matchday": 35,
+      "homeTeamId": "81",
+      "awayTeamId": "92",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438824",
+      "season": "2023-2024",
+      "utcDate": "2024-05-14T17:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "79",
+      "awayTeamId": "89",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438830",
+      "season": "2023-2024",
+      "utcDate": "2024-05-14T19:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "86",
+      "awayTeamId": "263",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "438827",
+      "season": "2023-2024",
+      "utcDate": "2024-05-14T20:00:00Z",
+      "matchday": 36,
+      "homeTeamId": "298",
+      "awayTeamId": "94",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438828",
+      "season": "2023-2024",
+      "utcDate": "2024-05-15T17:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "559",
+      "awayTeamId": "264",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438829",
+      "season": "2023-2024",
+      "utcDate": "2024-05-15T17:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "87",
+      "awayTeamId": "83",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438825",
+      "season": "2023-2024",
+      "utcDate": "2024-05-15T20:00:00Z",
+      "matchday": 36,
+      "homeTeamId": "558",
+      "awayTeamId": "77",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "438826",
+      "season": "2023-2024",
+      "utcDate": "2024-05-15T20:00:00Z",
+      "matchday": 36,
+      "homeTeamId": "82",
+      "awayTeamId": "78",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "438833",
+      "season": "2023-2024",
+      "utcDate": "2024-05-16T17:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "275",
+      "awayTeamId": "90",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438832",
+      "season": "2023-2024",
+      "utcDate": "2024-05-16T19:30:00Z",
+      "matchday": 36,
+      "homeTeamId": "267",
+      "awayTeamId": "81",
+      "homeTeam": "UD Almería",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438831",
+      "season": "2023-2024",
+      "utcDate": "2024-05-16T20:00:00Z",
+      "matchday": 36,
+      "homeTeamId": "92",
+      "awayTeamId": "95",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438837",
+      "season": "2023-2024",
+      "utcDate": "2024-05-18T19:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "263",
+      "awayTeamId": "82",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Getafe CF",
+      "score": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "438834",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "77",
+      "awayTeamId": "559",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Sevilla FC",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "438835",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "78",
+      "awayTeamId": "79",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "CA Osasuna",
+      "score": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "438836",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "90",
+      "awayTeamId": "92",
+      "homeTeam": "Real Betis Balompié",
+      "awayTeam": "Real Sociedad de Fútbol",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438838",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "81",
+      "awayTeamId": "87",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Rayo Vallecano de Madrid",
+      "score": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "438839",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "264",
+      "awayTeamId": "275",
+      "homeTeam": "Cádiz CF",
+      "awayTeam": "UD Las Palmas",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438840",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "83",
+      "awayTeamId": "558",
+      "homeTeam": "Granada CF",
+      "awayTeam": "RC Celta de Vigo",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438841",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "95",
+      "awayTeamId": "298",
+      "homeTeam": "Valencia CF",
+      "awayTeam": "Girona FC",
+      "score": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "438842",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "94",
+      "awayTeamId": "86",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "Real Madrid CF",
+      "score": {
+        "home": 4,
+        "away": 4
+      }
+    },
+    {
+      "id": "438843",
+      "season": "2023-2024",
+      "utcDate": "2024-05-19T17:00:00Z",
+      "matchday": 37,
+      "homeTeamId": "89",
+      "awayTeamId": "267",
+      "homeTeam": "RCD Mallorca",
+      "awayTeam": "UD Almería",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438847",
+      "season": "2023-2024",
+      "utcDate": "2024-05-24T19:00:00Z",
+      "matchday": 38,
+      "homeTeamId": "298",
+      "awayTeamId": "83",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Granada CF",
+      "score": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "id": "438844",
+      "season": "2023-2024",
+      "utcDate": "2024-05-25T12:00:00Z",
+      "matchday": 38,
+      "homeTeamId": "79",
+      "awayTeamId": "94",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Villarreal CF",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438851",
+      "season": "2023-2024",
+      "utcDate": "2024-05-25T14:15:00Z",
+      "matchday": 38,
+      "homeTeamId": "92",
+      "awayTeamId": "78",
+      "homeTeam": "Real Sociedad de Fútbol",
+      "awayTeam": "Club Atlético de Madrid",
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "438849",
+      "season": "2023-2024",
+      "utcDate": "2024-05-25T16:30:00Z",
+      "matchday": 38,
+      "homeTeamId": "87",
+      "awayTeamId": "77",
+      "homeTeam": "Rayo Vallecano de Madrid",
+      "awayTeam": "Athletic Club",
+      "score": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "438852",
+      "season": "2023-2024",
+      "utcDate": "2024-05-25T16:30:00Z",
+      "matchday": 38,
+      "homeTeamId": "267",
+      "awayTeamId": "264",
+      "homeTeam": "UD Almería",
+      "awayTeam": "Cádiz CF",
+      "score": {
+        "home": 6,
+        "away": 1
+      }
+    },
+    {
+      "id": "438850",
+      "season": "2023-2024",
+      "utcDate": "2024-05-25T19:00:00Z",
+      "matchday": 38,
+      "homeTeamId": "86",
+      "awayTeamId": "90",
+      "homeTeam": "Real Madrid CF",
+      "awayTeam": "Real Betis Balompié",
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "438846",
+      "season": "2023-2024",
+      "utcDate": "2024-05-26T12:00:00Z",
+      "matchday": 38,
+      "homeTeamId": "82",
+      "awayTeamId": "89",
+      "homeTeam": "Getafe CF",
+      "awayTeam": "RCD Mallorca",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "438845",
+      "season": "2023-2024",
+      "utcDate": "2024-05-26T14:15:00Z",
+      "matchday": 38,
+      "homeTeamId": "558",
+      "awayTeamId": "95",
+      "homeTeam": "RC Celta de Vigo",
+      "awayTeam": "Valencia CF",
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "438853",
+      "season": "2023-2024",
+      "utcDate": "2024-05-26T14:15:00Z",
+      "matchday": 38,
+      "homeTeamId": "275",
+      "awayTeamId": "263",
+      "homeTeam": "UD Las Palmas",
+      "awayTeam": "Deportivo Alavés",
+      "score": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "438848",
+      "season": "2023-2024",
+      "utcDate": "2024-05-26T19:00:00Z",
+      "matchday": 38,
+      "homeTeamId": "559",
+      "awayTeamId": "81",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "FC Barcelona",
+      "score": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "injuries": []
+}
