@@ -1,0 +1,52 @@
+name: Data Refresh
+
+on:
+  schedule:
+    # Cada hora entre 08:00 y 23:00 UTC
+    - cron: '0 8-23 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install deps
+        run: npm ci
+      - name: Fetch incremental seasons (recent 2)
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          FETCH_SEASONS: recent:2
+        run: npm run fetch:data
+      - name: Detect changes (season json / manifest)
+        id: diff
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'actions@users.noreply.github.com'
+          CHANGED=$(git status --porcelain public/data | wc -l)
+          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+          if [ "$CHANGED" -gt 0 ]; then
+            echo 'Changes detected:'
+            git status --porcelain public/data
+          fi
+      - name: Commit & push
+        if: steps.diff.outputs.changed != '0'
+        run: |
+          git add public/data
+          MSG="chore(data): refresh $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git commit -m "$MSG" || echo 'Nothing to commit'
+          git push origin HEAD:main
+      - name: No changes
+        if: steps.diff.outputs.changed == '0'
+        run: echo 'No data changes; skipping commit.'

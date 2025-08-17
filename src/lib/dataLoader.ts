@@ -25,25 +25,45 @@ const TEAM_TEMPLATE: { teamId: string; name: string }[] = [
 ];
 
 function normalizeTable(table: TeamSeasonStats[]): TeamSeasonStats[] {
+  // Caso normal: si ya vienen (casi) todos los equipos reales (>=18) NO sustituimos nada.
+  if (table.length >= 18) {
+    // Asegurar posiciones coherentes (si faltan o hay desorden)
+    const sorted = [...table].sort((a,b) => a.position - b.position);
+    // Si no hay position fiable, recalculamos por puntos/gol diff
+    const needRecalc = sorted.some((r,i) => r.position !== i+1);
+    if (needRecalc) {
+      sorted.sort((a,b)=>{
+        if (b.points !== a.points) return b.points - a.points;
+        const gdA = (a.goalsFor - a.goalsAgainst);
+        const gdB = (b.goalsFor - b.goalsAgainst);
+        if (gdB !== gdA) return gdB - gdA;
+        return a.name.localeCompare(b.name);
+      }).forEach((r,i)=>{ r.position = i+1; });
+    }
+    return sorted;
+  }
+
+  // Escenario placeholder: completar con plantilla interna.
   const byId = new Map(table.map(t => [t.teamId, t] as const));
-  const completed: TeamSeasonStats[] = TEAM_TEMPLATE.map((tpl, idx) => {
-    const existing = byId.get(tpl.teamId);
-    if (existing) return existing;
-    return {
-      teamId: tpl.teamId,
-      name: tpl.name,
-      played: 0,
-      wins: 0,
-      draws: 0,
-      losses: 0,
-      goalsFor: 0,
-      goalsAgainst: 0,
-      points: 0,
-      position: table.length + idx + 1, // provisional
-      placeholder: true
-    };
-  });
-  // Recalcular posiciones por puntos (desc) y diff de goles
+  const completed: TeamSeasonStats[] = [...table];
+  for (const tpl of TEAM_TEMPLATE) {
+    if (completed.length >= 20) break;
+    if (!byId.has(tpl.teamId)) {
+      completed.push({
+        teamId: tpl.teamId,
+        name: tpl.name,
+        played: 0,
+        wins: 0,
+        draws: 0,
+        losses: 0,
+        goalsFor: 0,
+        goalsAgainst: 0,
+        points: 0,
+        position: completed.length + 1,
+        placeholder: true
+      });
+    }
+  }
   completed.sort((a,b) => {
     if (b.points !== a.points) return b.points - a.points;
     const gdA = a.goalsFor - a.goalsAgainst;
@@ -56,18 +76,53 @@ function normalizeTable(table: TeamSeasonStats[]): TeamSeasonStats[] {
 
 const cache = new Map<string, Promise<SeasonData>>();
 
+interface ManifestEntry { generatedAt: string; hash: string; }
+interface Manifest { seasons: Record<string, ManifestEntry>; }
+
+let manifestPromise: Promise<Manifest | null> | null = null;
+function loadManifest(base: string): Promise<Manifest | null> {
+  if (!manifestPromise) {
+    manifestPromise = fetch(`${base}data/manifest.json?_=${Date.now()}`)
+      .then(r => r.ok ? r.json() : null)
+      .catch(()=>null);
+  }
+  return manifestPromise;
+}
+
 export function loadSeason(season: string): Promise<SeasonData> {
   if (!cache.has(season)) {
     // Usar BASE_URL de Vite para que funcione en subcarpetas (GitHub Pages)
     const base = (import.meta as any).env?.BASE_URL || '/';
     const url = `${base}data/${season}.json`;
-    const p = fetch(url).then(r => {
-      if (!r.ok) throw new Error(`No se pudo cargar temporada ${season}`);
-      return r.json();
-    }).then((raw: SeasonData) => ({
-      ...raw,
-      table: normalizeTable(raw.table)
-    }));
+    const p = (async () => {
+      // Intentar cache localStorage (solo en navegador)
+      const lsKey = `season:${season}`;
+      let cached: SeasonData | null = null;
+      try {
+        if (typeof window !== 'undefined') {
+          const txt = localStorage.getItem(lsKey);
+          if (txt) cached = JSON.parse(txt);
+        }
+      } catch {}
+
+      const manifest = await loadManifest(base).catch(()=>null);
+      const remoteMeta = manifest?.seasons?.[season];
+      const needFetch = !cached || !remoteMeta || cached.generatedAt !== remoteMeta.generatedAt;
+      let raw: SeasonData;
+      if (needFetch) {
+        const resp = await fetch(url + (remoteMeta ? `?v=${remoteMeta.hash}` : ''));
+        if (!resp.ok) throw new Error(`No se pudo cargar temporada ${season}`);
+        raw = await resp.json();
+        // Guardar en localStorage
+        try { if (typeof window !== 'undefined') localStorage.setItem(lsKey, JSON.stringify(raw)); } catch {}
+      } else {
+        raw = cached!;
+      }
+      return {
+        ...raw,
+        table: normalizeTable(raw.table)
+      };
+    })();
     cache.set(season, p);
   }
   return cache.get(season)!;

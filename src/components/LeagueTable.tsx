@@ -30,7 +30,7 @@ export const LeagueTable: React.FC = () => {
     { key: 'losses', label: 'P' },
     { key: 'goalsFor', label: 'GF' },
     { key: 'goalsAgainst', label: 'GC' },
-    { key: 'dg', label: 'DG', calc: (r:any)=> r.goalsFor - r.goalsAgainst },
+    { key: 'dg', label: 'DG', calc: (r:any)=> r.goalDifference ?? (r.goalsFor - r.goalsAgainst) },
     { key: 'points', label: 'Pts' }
   ];
   const rows = data.table
@@ -38,7 +38,7 @@ export const LeagueTable: React.FC = () => {
     .filter(r => !(hidePh && r.placeholder));
   const sorted = [...rows].sort((a,b)=>{
     let av:any; let bv:any;
-    if (sort.key === 'dg') { av = a.goalsFor - a.goalsAgainst; bv = b.goalsFor - b.goalsAgainst; }
+  if (sort.key === 'dg') { av = (a.goalDifference ?? (a.goalsFor - a.goalsAgainst)); bv = (b.goalDifference ?? (b.goalsFor - b.goalsAgainst)); }
     else { av = (a as any)[sort.key]; bv = (b as any)[sort.key]; }
     if (av < bv) return sort.dir === 'asc' ? -1 : 1;
     if (av > bv) return sort.dir === 'asc' ? 1 : -1;
@@ -60,14 +60,19 @@ export const LeagueTable: React.FC = () => {
         {sorted.map(row => (
           <tr key={row.teamId} className={row.placeholder ? 'placeholder-row' : ''}>
             <td>{row.position}</td>
-            <td><Link to={`team/${row.teamId}?season=${data.season}`}>{row.name}</Link></td>
+            <td>
+              <Link to={`team/${row.teamId}?season=${data.season}`}> 
+                {row.crest && <img src={row.crest} alt="" style={{height:16,verticalAlign:'text-bottom',marginRight:6}} />}
+                {row.name}
+              </Link>
+            </td>
             <td>{row.played}</td>
             <td>{row.wins}</td>
             <td>{row.draws}</td>
             <td>{row.losses}</td>
             <td>{row.goalsFor}</td>
             <td>{row.goalsAgainst}</td>
-            <td>{row.goalsFor - row.goalsAgainst}</td>
+            <td>{row.goalDifference ?? (row.goalsFor - row.goalsAgainst)}</td>
             <td>{row.points}</td>
           </tr>
         ))}

@@ -11,6 +11,7 @@
   </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="./src/main.tsx"></script>
+  <!-- Vite in dev rewrites /src paths; in prod we rely on built assets injected -->
+  <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -8,6 +8,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import crypto from 'node:crypto';
 // Carga variables desde .env si existe
 try { await import('dotenv/config'); } catch { /* opcional */ }
 
@@ -91,13 +92,18 @@ async function processSeason(startYear) {
     .find(s => s.type === 'TOTAL')?.table?.map(r => ({
       teamId: r.team.id?.toString() || r.team.tla || r.team.shortName || r.team.name,
       name: r.team.name,
+      shortName: r.team.shortName,
+      tla: r.team.tla,
+      crest: r.team.crest,
       played: r.playedGames,
       wins: r.won,
       draws: r.draw,
       losses: r.lost,
       goalsFor: r.goalsFor,
       goalsAgainst: r.goalsAgainst,
+      goalDifference: r.goalDifference,
       points: r.points,
+      form: r.form || null,
       position: r.position
     })) || [];
   const matches = (matchesRaw.matches || []).map(m => ({
@@ -105,16 +111,29 @@ async function processSeason(startYear) {
     season: label,
     utcDate: m.utcDate,
     matchday: m.matchday || 0,
+    status: m.status,
+    stage: m.stage,
     homeTeamId: m.homeTeam.id?.toString(),
     awayTeamId: m.awayTeam.id?.toString(),
     homeTeam: m.homeTeam.name,
     awayTeam: m.awayTeam.name,
-    score: m.score.fullTime.home !== null ? { home: m.score.fullTime.home, away: m.score.fullTime.away } : null,
-    venue: m.venue
+    score: {
+      fullTime: m.score.fullTime || { home: null, away: null },
+      halfTime: m.score.halfTime || { home: null, away: null },
+      winner: m.score.winner || null
+    },
+    venue: m.venue,
+    lastUpdated: m.lastUpdated
   }));
   const injuries = []; // Fuente externa requerida; dejar vacío por ahora.
   const seasonData = {
     season: label,
+    competition: standingsRaw.competition ? {
+      id: standingsRaw.competition.id,
+      code: standingsRaw.competition.code,
+      name: standingsRaw.competition.name,
+      emblem: standingsRaw.competition.emblem
+    } : { code: COMP },
     generatedAt: new Date().toISOString(),
     source: 'football-data.org',
     table,
@@ -132,6 +151,36 @@ for (const y of seasons) {
     console.error('Error temporada', y, e.message);
   }
 }
+
+// Construir manifest con generatedAt y hash de cada archivo de temporada
+async function buildManifest() {
+  const files = await fs.readdir(outDir);
+  const seasonFiles = files.filter(f => /\d{4}-\d{4}\.json$/.test(f));
+  const entries = {};
+  for (const fname of seasonFiles) {
+    try {
+      const full = path.join(outDir, fname);
+      const raw = await fs.readFile(full, 'utf8');
+      const json = JSON.parse(raw);
+      const hash = crypto.createHash('sha1').update(raw).digest('hex').slice(0,12);
+      entries[json.season] = { generatedAt: json.generatedAt, hash };
+    } catch (e) {
+      console.warn('[manifest] no se pudo procesar', fname, e.message);
+    }
+  }
+  const manifestPath = path.join(outDir, 'manifest.json');
+  const newContent = JSON.stringify({ seasons: entries }, null, 2);
+  let prev = '';
+  try { prev = await fs.readFile(manifestPath,'utf8'); } catch {}
+  if (prev !== newContent) {
+    await fs.writeFile(manifestPath, newContent, 'utf8');
+    console.log('[manifest] actualizado.');
+  } else {
+    console.log('[manifest] sin cambios.');
+  }
+}
+
+await buildManifest();
 
 if (!TOKEN) {
   console.log('\nSin FOOTBALL_DATA_TOKEN: se conservaron/crearon placeholders. Exporta un token y vuelve a ejecutar para datos reales.');
