@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+# Redirección opcional para SPA (descomenta si añades rutas client-side)
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
