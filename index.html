@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="root"></div>
-  <!-- Vite in dev rewrites /src paths; in prod we rely on built assets injected -->
-  <script type="module" src="/src/main.tsx"></script>
+  <!-- Vite dev: ./src/main.tsx ; en build se reemplaza por assets hashed -->
+  <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>

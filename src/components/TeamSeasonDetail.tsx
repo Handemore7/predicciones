@@ -20,19 +20,24 @@ export const TeamSeasonDetail: React.FC = () => {
 
   const form = matches.slice(-5).map(m => {
     if (!m.score) return '•';
+    const score = 'fullTime' in m.score ? m.score.fullTime : m.score;
+    if (score.home == null || score.away == null) return '•';
     const isHome = m.homeTeamId === teamId;
-    const gf = isHome ? m.score.home : m.score.away;
-    const ga = isHome ? m.score.away : m.score.home;
+    const gf = isHome ? score.home : score.away;
+    const ga = isHome ? score.away : score.home;
     if (gf > ga) return 'V';
     if (gf === ga) return 'E';
     return 'D';
   }).join(' ');
 
-  const goalsTrend = useMemo(() => matches.filter(m=>m.score).map(m => ({
-    matchday: m.matchday,
-    goalsFor: m.homeTeamId === teamId ? (m.score?.home||0) : (m.score?.away||0),
-    goalsAgainst: m.homeTeamId === teamId ? (m.score?.away||0) : (m.score?.home||0)
-  })), [matches, teamId]);
+  const goalsTrend = useMemo(() => matches.filter(m=>m.score).map(m => {
+    const score = 'fullTime' in (m.score as any) ? (m.score as any).fullTime : m.score as any;
+    return {
+      matchday: m.matchday,
+      goalsFor: m.homeTeamId === teamId ? (score?.home||0) : (score?.away||0),
+      goalsAgainst: m.homeTeamId === teamId ? (score?.away||0) : (score?.home||0)
+    };
+  }), [matches, teamId]);
 
   return (
     <>
@@ -64,7 +69,7 @@ export const TeamSeasonDetail: React.FC = () => {
                     <tr key={m.id}>
                       <td>{m.matchday}</td>
                       <td className={m.homeTeamId===teamId? 'focus-team': ''}>{m.homeTeam}</td>
-                      <td>{m.score ? `${m.score.home} - ${m.score.away}` : '—'}</td>
+                      <td>{m.score ? (()=>{ const s = 'fullTime' in m.score ? m.score.fullTime : m.score; return (s.home!=null && s.away!=null)? `${s.home} - ${s.away}` : '—'; })() : '—'}</td>
                       <td className={m.awayTeamId===teamId? 'focus-team': ''}>{m.awayTeam}</td>
                     </tr>
                   ))}
