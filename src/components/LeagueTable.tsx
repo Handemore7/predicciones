@@ -45,6 +45,16 @@ export const LeagueTable: React.FC = () => {
     return 0;
   });
   const sortIndicator = (key:string) => sort.key === key ? (sort.dir === 'asc' ? '▲' : '▼') : '';
+  const crestPlaceholder = `${import.meta.env.BASE_URL}data/crest-placeholder.svg`;
+  const handleCrestError: React.ReactEventHandler<HTMLImageElement> = (e) => {
+    const img = e.currentTarget;
+    const src = img.src || '';
+    if (src.includes('crests.football-data.org') && src.endsWith('.png')) {
+      img.src = src.replace(/\.png$/, '.svg');
+      return;
+    }
+    img.src = crestPlaceholder;
+  };
   return (
     <table className="league-table">
       <thead>
@@ -62,7 +72,14 @@ export const LeagueTable: React.FC = () => {
             <td>{row.position}</td>
             <td>
               <Link to={`team/${row.teamId}?season=${data.season}`}> 
-                {row.crest && <img src={row.crest} alt="" style={{height:16,verticalAlign:'text-bottom',marginRight:6}} />}
+                {(
+                  <img 
+                    src={row.crest || crestPlaceholder} 
+                    alt="" 
+                    style={{height:16,verticalAlign:'text-bottom',marginRight:6}} 
+                    onError={handleCrestError}
+                  />
+                )}
                 {row.name}
               </Link>
             </td>

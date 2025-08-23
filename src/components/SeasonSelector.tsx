@@ -7,7 +7,9 @@ export const SeasonSelector: React.FC = () => {
   const setSeason = useSeasonStore(s => s.setSeason);
   return (
     <select value={current} onChange={e => setSeason(e.target.value)} aria-label="Seleccionar temporada">
-      {seasons.map(season => <option key={season} value={season}>{season}</option>)}
+      {seasons.map(season => (
+        <option key={season} value={season}>{season.split('-')[0]}</option>
+      ))}
     </select>
   );
 };

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Escudo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#4a5568" stroke-width="2">
+    <path fill="url(#g)" d="M32 6c9 6 18 6 26 0v20c0 13-10 23-26 32C16 49 6 39 6 26V6c8 6 17 6 26 0z"/>
+    <circle cx="32" cy="28" r="10" fill="#2b6cb0" stroke="#63b3ed"/>
+    <path d="M22 44c6 4 14 4 20 0" stroke="#718096"/>
+  </g>
+</svg>
