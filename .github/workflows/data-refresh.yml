@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          fetch-depth: 0
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -46,7 +46,7 @@ jobs:
           git add public/data
           MSG="chore(data): refresh $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git commit -m "$MSG" || echo 'Nothing to commit'
-          git push origin HEAD:main
+          git push
       - name: No changes
         if: steps.diff.outputs.changed == '0'
         run: echo 'No data changes; skipping commit.'
