@@ -14,9 +14,9 @@ export const TableFilters: React.FC = () => {
         value={search}
         onChange={e=>setSearch(e.target.value)}
       />
-      <label style={{display:'flex', gap:4, alignItems:'center'}}>
+      {/* <label style={{display:'flex', gap:4, alignItems:'center'}}>
         <input type="checkbox" checked={hidePh} onChange={toggleHide} /> Ocultar placeholders
-      </label>
+      </label> */}
     </div>
   );
 };
